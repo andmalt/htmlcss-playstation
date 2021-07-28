@@ -37,3 +37,20 @@
     border-radius: 40px;
     font-weight: 600;
 }
+.thums-img img{
+    width: 100%;
+    border-radius: 15px;
+}
+.thums-img{
+    border: 2px solid transparent;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.thums-img:hover{
+    border: 2px solid rgb(11, 89, 255);
+}
+.thums-in{
+    width: 100%;
+    border-radius: 15px;
+}
+
