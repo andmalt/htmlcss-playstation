@@ -4,3 +4,14 @@
 .sony-logo img{
     height: 20px;
 }
+
+.button-log{
+    background-color: grey;
+    color: white;
+    border-radius: 40px;
+    font-weight: 600;
+}
+
+.lens-nav{
+    width: 25px;
+}
