@@ -2,7 +2,7 @@
     background-color: black;
 }
 .sony-logo img{
-    height: 20px;
+    height: 15px;
 }
 
 .button-log{
@@ -14,4 +14,26 @@
 
 .lens-nav{
     width: 25px;
+}
+
+.first-jumbotron{
+    background-image: url(../img/jumbo-bg.png);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+
+.jumbotron{
+    height: 100%;
+}
+
+.banner img{
+    width: 100%;
+}
+
+.button-buy{
+    background-color: rgb(255, 94, 0);
+    color: white;
+    border-radius: 40px;
+    font-weight: 600;
 }
