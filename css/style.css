@@ -92,3 +92,34 @@
 .carousel_img img{
     width: 100%;
 }
+
+.carousel_play-2{
+    width: 100%;
+    border-radius: 15px;
+    
+}
+.carousel_box-2{
+    border: 2px solid transparent;
+    border-radius: 15px;
+}
+
+.carousel_box-2:hover{
+    border: 2px solid white;
+    cursor: pointer;
+}
+.carousel_img-2 img{
+    width: 100%;
+    border-radius: 15px;
+}
+.background-black{
+    background-color: rgb(39, 39, 39);
+    color: white;
+}
+
+
+
+@media (max-width: 575.98px){
+    .carousel_title{
+        display: none;
+    }
+}
