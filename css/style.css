@@ -22,7 +22,11 @@
     background-size: cover;
     height: 600px;
 }
-
+.second-jumbotron{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center;
+    background-size: cover;
+}
 .jumbotron{
     height: 100%;
 }
@@ -48,6 +52,7 @@
 }
 .thums-img:hover{
     border: 2px solid rgb(11, 89, 255);
+    cursor: pointer;
 }
 .thums-in{
     width: 100%;
@@ -82,6 +87,7 @@
 
 .carousel_box:hover{
     border-bottom: 2px solid rgb(11, 89, 255);
+    cursor: pointer;
 }
 .carousel_img img{
     width: 100%;
