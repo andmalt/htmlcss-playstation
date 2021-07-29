@@ -68,7 +68,17 @@
     color: white;
     border-radius: 15px;
 }
-
+.button-info a{
+    text-decoration: none;
+    color: white;
+}
+.button-info:hover a{
+    color: rgb(11, 89, 255);
+}
+.button-info:hover{
+    background-color: white;
+    border: 1px solid rgb(11, 89, 255);
+}
 .paragraph{
     font-size: 1.2rem;
 }
