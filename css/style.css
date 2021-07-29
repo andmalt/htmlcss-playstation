@@ -71,3 +71,18 @@
 .img_playStation img{
     width: 100%;
 }
+
+.carousel_play{
+    width: 100%;
+    
+}
+.carousel_box{
+    border-bottom: 2px solid transparent;
+}
+
+.carousel_box:hover{
+    border-bottom: 2px solid rgb(11, 89, 255);
+}
+.carousel_img img{
+    width: 100%;
+}
