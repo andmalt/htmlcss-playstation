@@ -10,6 +10,7 @@
     color: white;
     border-radius: 40px;
     font-weight: 600;
+    padding-bottom: 10px;
 }
 
 .lens-nav{
@@ -40,6 +41,7 @@
     color: white;
     border-radius: 40px;
     font-weight: 600;
+    padding-bottom: 10px;
 }
 .thums-img img{
     width: 100%;
