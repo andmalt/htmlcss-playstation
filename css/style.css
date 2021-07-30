@@ -130,6 +130,21 @@
 .background-grey{
     background-color: rgb(151, 151, 151);
 }
+.background-blue{
+    background-color: rgb(3, 27, 80);
+}
+.button-explore-2{
+    color: black;
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    padding: 5px 15px 8px;
+}
+.button-explore-2:hover{
+    color: white;
+    background-color: rgb(3, 27, 80);
+    border: 1px solid white;
+}
 .button-explore{
     color: rgb(11, 89, 255);
     background-color: rgb(196, 196, 196);
