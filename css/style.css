@@ -1,8 +1,30 @@
-.head-up{
-    background-color: black;
+
+.background-black{
+    background-color: rgb(39, 39, 39);
+    color: white;
 }
-.sony-logo img{
-    height: 15px;
+.background-grey{
+    background-color: rgb(151, 151, 151);
+}
+.background-blue{
+    background-color: rgb(3, 27, 80);
+}
+.background-footer{
+    background-color: rgb(11, 89, 255);
+    color: white;
+}
+.banner{
+    margin-top: 250px;
+}
+.banner img{
+    width: 100%;
+}
+.button-buy{
+    background-color: rgb(255, 94, 0);
+    color: white;
+    border-radius: 40px;
+    font-weight: 600;
+    padding-bottom: 10px;
 }
 
 .button-log{
@@ -12,59 +34,6 @@
     font-weight: 600;
     padding-bottom: 10px;
 }
-
-.lens-nav{
-    width: 25px;
-}
-
-.first-jumbotron{
-    background-image: url(../img/jumbo-bg.png);
-    background-position: center;
-    background-size: cover;
-    height: 600px;
-}
-.second-jumbotron{
-    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
-    background-position: center;
-    background-size: cover;
-}
-.jumbotron{
-    height: 100%;
-}
-
-.banner img{
-    width: 100%;
-}
-
-.button-buy{
-    background-color: rgb(255, 94, 0);
-    color: white;
-    border-radius: 40px;
-    font-weight: 600;
-    padding-bottom: 10px;
-}
-.thums-img img{
-    width: 100%;
-    border-radius: 15px;
-}
-.thums-img{
-    border: 2px solid transparent;
-    border-radius: 20px;
-    overflow: hidden;
-}
-.thums-img:hover{
-    border: 2px solid rgb(11, 89, 255);
-    cursor: pointer;
-}
-.thums-in{
-    width: 100%;
-    border-radius: 15px;
-}
-
-.motto{
-    color: rgb(11, 89, 255);
-}
-
 .button-info{
     background-color: rgb(11, 89, 255);
     color: white;
@@ -81,14 +50,29 @@
     background-color: white;
     border: 1px solid rgb(11, 89, 255);
 }
-.paragraph{
-    font-size: 1.2rem;
+.button-explore-2{
+    color: black;
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    padding: 5px 15px 8px;
 }
-
-.img_playStation img{
-    width: 100%;
+.button-explore-2:hover{
+    color: white;
+    background-color: rgb(3, 27, 80);
+    border: 1px solid white;
 }
-
+.button-explore{
+    color: rgb(11, 89, 255);
+    background-color: rgb(196, 196, 196);
+    border: none;
+    border-radius: 15px;
+    padding: 5px 15px 10px;
+}
+.button-explore:hover{
+    color: rgb(196, 196, 196);
+    background-color: rgb(11, 89, 255);
+}
 .carousel_play{
     width: 100%;
     
@@ -123,42 +107,12 @@
     width: 100%;
     border-radius: 15px;
 }
-.background-black{
-    background-color: rgb(39, 39, 39);
-    color: white;
+
+.head-up{
+    background-color: black;
 }
-.background-grey{
-    background-color: rgb(151, 151, 151);
-}
-.background-blue{
-    background-color: rgb(3, 27, 80);
-}
-.button-explore-2{
-    color: black;
-    background-color: white;
-    border: 1px solid transparent;
-    border-radius: 15px;
-    padding: 5px 15px 8px;
-}
-.button-explore-2:hover{
-    color: white;
-    background-color: rgb(3, 27, 80);
-    border: 1px solid white;
-}
-.button-explore{
-    color: rgb(11, 89, 255);
-    background-color: rgb(196, 196, 196);
-    border: none;
-    border-radius: 15px;
-    padding: 5px 15px 10px;
-}
-.button-explore:hover{
-    color: rgb(196, 196, 196);
-    background-color: rgb(11, 89, 255);
-}
-.background-footer{
-    background-color: rgb(11, 89, 255);
-    color: white;
+.img_playStation img{
+    width: 100%;
 }
 .img-globo img{
     width: 100%;
@@ -169,6 +123,50 @@
 .img-sie{
     width: 100px;
 }
+.jumbotron{
+    height: 100%;
+}
+.jumbotron-first{
+    background-image: url(../img/jumbo-bg.png);
+    background-position: center;
+    background-size: cover;
+}
+.jumbotron-second{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.lens-nav{
+    width: 25px;
+}
+.motto{
+    color: rgb(11, 89, 255);
+}
+.paragraph{
+    font-size: 1.2rem;
+}
+.sony-logo img{
+    height: 15px;
+}
+
+.thums-img img{
+    width: 100%;
+    border-radius: 15px;
+}
+.thums-img{
+    border: 2px solid transparent;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.thums-img:hover{
+    border: 2px solid rgb(11, 89, 255);
+    cursor: pointer;
+}
+.thums-in{
+    width: 100%;
+    border-radius: 15px;
+}
+
 
 @media (max-width: 575.98px){
     .carousel_title{
