@@ -156,7 +156,19 @@
     color: rgb(196, 196, 196);
     background-color: rgb(11, 89, 255);
 }
-
+.background-footer{
+    background-color: rgb(11, 89, 255);
+    color: white;
+}
+.img-globo img{
+    width: 100%;
+}
+.img-globo{
+    width: 40px;
+}
+.img-sie{
+    width: 100px;
+}
 
 @media (max-width: 575.98px){
     .carousel_title{
